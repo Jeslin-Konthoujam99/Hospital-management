@@ -68,7 +68,7 @@ Update database credentials in utils.java:
 
 String url = "jdbc:mysql://localhost:3306/hospital_db";
 String user = "root";
-String password = "your_password";
+String password = "root";
 
 Run the project:
 
@@ -87,7 +87,8 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 Author
 
-Jeslin KonthoujamEmail: okazaki@cmail.comGitHub: Jeslin-Konthoujam99
+Jeslin Konthoujam
+GitHub: Jeslin-Konthoujam99
 
 License
 
