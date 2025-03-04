@@ -1,0 +1,14 @@
+
+<%@page import="java.sql.*"%>
+<%@page import="login.SQLConnect"%>
+
+
+Connection con = null;
+	PreparedStatement pstmt = null;
+	ResultSet rs = null ;
+	SQLConnect model = new SQLConnect();
+	try {
+		con = model.connect();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
